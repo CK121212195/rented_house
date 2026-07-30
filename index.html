@@ -6,9 +6,7 @@
 <title>賃貸 vs 持ち家 生涯コスト比較シミュレーター｜相続・贈与・死亡時まで通算</title>
 <meta name="description" content="賃貸と持ち家の生涯コストを、住宅ローン控除・固定資産税・団信・相続税・贈与税まで含めて年次で比較。死亡年齢を動かすと相続税と遺族の手取りが即座に再計算されます。2026年7月時点の税制準拠。">
 
-<!-- ==========================================
-     👇 Google Analytics (gtag) の設定 👇
-=========================================== -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JKXXKXH8DF"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -17,28 +15,20 @@
   gtag('config', 'G-JKXXKXH8DF');
 </script>
 
-<!-- ==========================================
-     👇 ファビコン（タブやスマホのアイコン）の設定 👇
-     ※添付の画像を favicon.png として同じフォルダに置いてください
-=========================================== -->
-<link rel="icon" type="image/png" href="favicon.png">
-<link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
-
-<!-- ==========================================
-     👇 OGP・Twitterカードタグの設定 👇
-     ※ og:url と og:image, twitter:image をご自身の実際のURLに書き換えてください
-=========================================== -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://example.com/rent_vs_own/"> <!-- ← 実際のURLに置き換えてください -->
+<meta property="og:url" content="https://ck121212195.github.io/rented_house/">
 <meta property="og:site_name" content="賃貸 vs 持ち家 生涯コスト比較シミュレーター">
 <meta property="og:title" content="賃貸 vs 持ち家 生涯コスト比較シミュレーター｜相続・贈与・死亡時まで通算">
 <meta property="og:description" content="賃貸と持ち家の生涯コストを、住宅ローン控除・固定資産税・団信・相続税・贈与税まで含めて年次で比較。死亡年齢を動かすと相続税と遺族の手取りが即座に再計算されます。2026年7月時点の税制準拠。">
-<meta property="og:image" content="https://example.com/rent_vs_own/og-image.png"> <!-- ← 添付のバナー画像の絶対パスに置き換えてください -->
+<meta property="og:image" content="https://ck121212195.github.io/rented_house/og-image.png">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="賃貸 vs 持ち家 生涯コスト比較シミュレーター｜相続・贈与・死亡時まで通算">
 <meta name="twitter:description" content="賃貸と持ち家の生涯コストを、住宅ローン控除・固定資産税・団信・相続税・贈与税まで含めて年次で比較。死亡年齢を動かすと相続税と遺族の手取りが即座に再計算されます。2026年7月時点の税制準拠。">
-<meta name="twitter:image" content="https://example.com/rent_vs_own/og-image.png"> <!-- ← 添付のバナー画像の絶対パスに置き換えてください -->
+<meta name="twitter:image" content="https://ck121212195.github.io/rented_house/og-image.png">
+
+<link rel="icon" type="image/png" href="https://ck121212195.github.io/rented_house/favicon.png" sizes="32x32">
+<link rel="apple-touch-icon" sizes="180x180" href="https://ck121212195.github.io/rented_house/favicon.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1134,7 +1124,7 @@ function drawNotes(S){
   }
   if (S.P.ltype === 'flat'){
     push('モーゲージ債','t-own', `フラット35の原資は、住宅金融支援機構が発行する<b>資産担保証券（機構MBS）</b>です。
-      機構が買い取った住宅ローン債権を信託し、熟知した受益権を裏付けに債券を発行して市場から長期資金を調達しています。
+      機構が買い取った住宅ローン債権を信託し、その受益権を裏付けに債券を発行して市場から長期資金を調達しています。
       だから適用金利は機構債の表面利率（≒長期国債利回り＋スプレッド）に連動し、短期政策金利ではなく長期金利で動きます。
       2026年7月の最頻金利は年3.14%前後。<b>借り手にとっての意味は単純で、金利は上がらないが、最初から高い</b>ということです。`);
   }
